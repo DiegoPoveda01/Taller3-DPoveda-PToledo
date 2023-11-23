@@ -1,12 +1,24 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+  <meta charset="UTF-8">
+  <title>Menú Principal</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<h1>Global Music Events: "World Class"</h1>
+
+<div id="menu">
+  <ul>
+    <li><a href="crearEventoMusical.jsp">Crear Evento Musical</a></li>
+    <li><a href="cancelarEventoMusical.jsp">Cancelar Evento Musical</a></li>
+    <li><a href="registroArtista.jsp">Registro de Artistas</a></li>
+    <li><a href="registroAsistente.jsp">Registro de Asistentes</a></li>
+    <li><a href="ventaEntrada.jsp">Venta de Entradas</a></li>
+  </ul>
+</div>
+
 </body>
 </html>
