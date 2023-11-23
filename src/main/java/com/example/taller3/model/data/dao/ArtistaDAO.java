@@ -27,7 +27,7 @@ public class ArtistaDAO {
         for (Record record : resultados) {
             String nombre = record.getValue(DSL.field("nombre", String.class));
             String genero = record.getValue(DSL.field("genero", String.class));
-            artistas.add(new Artista(nombre, editorial));
+            artistas.add(new Artista(nombre, genero));
         }
 
         return artistas;
