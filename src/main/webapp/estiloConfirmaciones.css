@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d0ffd0; /* Fondo verde claro para éxito */
+    color: #006400; /* Texto verde oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    color: #006400; /* Verde oscuro para títulos */
+}
+
+a {
+    color: #006400; /* Verde oscuro para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #ffe4b5; /* Fondo color moccasin */
+    color: #8b0000; /* Rojo oscuro para texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    color: #8b0000; /* Rojo oscuro para títulos */
+}
+
+a {
+    color: #8b0000; /* Rojo oscuro para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffd6cc; /* Fondo melocotón claro para error */
+    color: #cc0000; /* Texto rojo oscuro para error */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    color: #cc0000; /* Rojo oscuro para títulos de error */
+}
+
+a {
+    color: #cc0000; /* Rojo oscuro para enlaces de error */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
