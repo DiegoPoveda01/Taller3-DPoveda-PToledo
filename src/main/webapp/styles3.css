@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* Fondo rosado crema suave */
+    color: #000; /* Texto negro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h2,
+label,
+a {
+    font-weight: bold;
+    color: #000; /* Texto negro */
+}
+
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 5px;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+}
+
+input[type="submit"]:hover {
+    background-color: #ffd700; /* Fondo amarillo dorado al pasar el ratón sobre el botón */
+    color: #000; /* Texto negro */
+}
+
+a {
+    color: #000; /* Texto negro para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

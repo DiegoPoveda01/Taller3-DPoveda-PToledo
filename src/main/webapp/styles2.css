@@ -1,0 +1,47 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #ffe4b5; /* Color de fondo tipo moccasin */
+    color: #333; /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h2 {
+    color: #ff4500; /* Naranja oscuro */
+}
+
+label {
+    color: #008080; /* Verde azulado oscuro */
+}
+
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ff4500; /* Borde naranja oscuro */
+    border-radius: 5px;
+    background-color: #fff8dc; /* Amarillo pálido */
+    color: #333; /* Texto oscuro */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4500; /* Naranja oscuro al pasar el ratón sobre el botón */
+    color: #fff; /* Texto blanco */
+}
+
+a {
+    color: #008080; /* Verde azulado oscuro para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
