@@ -46,7 +46,7 @@ public class EventoMusicalDAO {
             String nombre = record.getValue(DSL.field("nombre", String.class));
             String fecha = record.getValue(DSL.field("fecha", String.class));
             String lugar = record.getValue(DSL.field("lugar", String.class));
-            String[] artistas = record.getValue(DSL.field("nombre_artistas", String[].class));
+            String artistas = record.getValue(DSL.field("nombre_artistas", String.class));
 
 
             eventos.add(new EventoMusical(nombre, fecha, lugar, artistas));

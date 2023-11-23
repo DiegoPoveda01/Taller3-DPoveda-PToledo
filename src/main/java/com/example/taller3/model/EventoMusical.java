@@ -6,8 +6,8 @@ public class EventoMusical {
     private String nombre;
     private String fecha;
     private String lugar;
-    private List<Artista> artistas;
-    public EventoMusical(String nombre, String fecha, String lugar, List<Artista> artistas) {
+    private String artistas;
+    public EventoMusical(String nombre, String fecha, String lugar, String artistas) {
         this.nombre = nombre;
         this.fecha = fecha;
         this.lugar = lugar;
@@ -31,10 +31,10 @@ public class EventoMusical {
     public void setLugar(String lugar) {
         this.lugar = lugar;
     }
-    public List<Artista> getArtistas() {
+    public String getArtistas() {
         return artistas;
     }
-    public void setArtistas(List<Artista> artistas) {
+    public void setArtistas(String artistas) {
         this.artistas = artistas;
     }
     @Override
