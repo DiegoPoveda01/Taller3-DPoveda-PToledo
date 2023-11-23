@@ -17,7 +17,8 @@
         <input type="text" id="nombreEvento" name="nombreEvento" required>
 
         <br><br>
-
+        <p>Las fechas deben ingresar con formato AÑO-MES-DÍA (debe ser con guión)
+        <p>
         <label for="fechaEvento">Fecha del Evento (YYYY-MM-DD):</label>
         <input type="text" id="fechaEvento" name="fechaEvento" pattern="\d{4}-\d{2}-\d{2}" required>
         <!-- El atributo pattern especifica el formato de fecha esperado -->
