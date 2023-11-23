@@ -17,12 +17,15 @@
     <li><a href="registroArtista.jsp">Registro de Artistas</a></li>
     <li><a href="registroAsistente.jsp">Registro de Asistentes</a></li>
 
-
-
-
-    <li><a href="ventaEntrada.jsp">Comprar Entradas</a></li>
   </ul>
 
+</div>
+
+<!-- Segundo Menú -->
+<div id="menu2">
+  <ul>
+    <li><a href="ventaEntrada.jsp">Comprar Entradas</a></li>
+  </ul>
 </div>
 
 </body>
