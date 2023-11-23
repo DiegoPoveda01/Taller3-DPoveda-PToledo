@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h2 {
+    color: #39ff14; /* Color neón verde */
+}
+
+label {
+    color: #ff00ff; /* Color neón magenta */
+}
+
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #39ff14; /* Bordes neón verde */
+    border-radius: 5px;
+    background-color: #000; /* Fondo oscuro para resaltar */
+    color: #39ff14; /* Texto neón verde */
+}
+
+input[type="submit"]:hover {
+    background-color: #39ff14; /* Fondo neón verde al pasar el ratón sobre el botón */
+    color: #000; /* Texto oscuro para resaltar */
+}
+
+a {
+    color: #39ff14; /* Color neón verde para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
