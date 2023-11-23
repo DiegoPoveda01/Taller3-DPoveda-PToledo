@@ -2,15 +2,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1a1a1a;
     margin: 0;
     padding: 0;
+    color: #fff; /* Color del texto */
 }
 
 #content {
     width: 50%;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #222; /* Fondo más oscuro */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +19,7 @@ body {
 }
 
 h2 {
-    color: #333;
+    color: #39ff14; /* Color neón */
 }
 
 form {
@@ -29,6 +30,7 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    color: #39ff14; /* Color neón */
 }
 
 select,
@@ -38,13 +40,13 @@ input[type="number"] {
     padding: 8px;
     margin-bottom: 15px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #39ff14; /* Borde neón */
     border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
-    color: #fff;
+    background-color: #39ff14; /* Fondo neón */
+    color: #1a1a1a; /* Texto oscuro */
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -52,7 +54,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #2ecc71; /* Fondo neón al pasar el ratón */
 }
 
 a {

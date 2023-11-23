@@ -18,8 +18,9 @@
 
         <br><br>
 
-        <label for="fechaEvento">Fecha del Evento:</label>
-        <input type="date" id="fechaEvento" name="fechaEvento" required>
+        <label for="fechaEvento">Fecha del Evento (YYYY-MM-DD):</label>
+        <input type="text" id="fechaEvento" name="fechaEvento" pattern="\d{4}-\d{2}-\d{2}" required>
+        <!-- El atributo pattern especifica el formato de fecha esperado -->
 
         <br><br>
 
