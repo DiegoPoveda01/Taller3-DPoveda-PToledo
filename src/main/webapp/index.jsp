@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Menú Principal</title>
+  <title>Global Music Events: "World Class"</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -16,8 +16,13 @@
     <li><a href="cancelarEventoMusical.jsp">Cancelar Evento Musical</a></li>
     <li><a href="registroArtista.jsp">Registro de Artistas</a></li>
     <li><a href="registroAsistente.jsp">Registro de Asistentes</a></li>
-    <li><a href="ventaEntrada.jsp">Venta de Entradas</a></li>
+
+
+
+
+    <li><a href="ventaEntrada.jsp">Comprar Entradas</a></li>
   </ul>
+
 </div>
 
 </body>

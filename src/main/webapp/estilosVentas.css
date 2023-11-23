@@ -1,4 +1,4 @@
-/* styles.css */
+/* estilosVentas.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -14,6 +14,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Alinea el contenido al centro */
 }
 
 h2 {

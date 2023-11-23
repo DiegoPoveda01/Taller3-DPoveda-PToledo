@@ -1,43 +1,47 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #c57e7e; /* Color de fondo */
-    color: #333; /* Color del texto */
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 h1 {
     text-align: center;
-    color: rgba(0, 53, 255, 0.85); /* Color para el título */
+    color: #333;
 }
 
 #menu {
-    width: 60%;
-    margin: 20px auto; /* Centra el menú horizontalmente */
-    text-align: center; /* Centra los elementos dentro del menú */
+    background-color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+#menu ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-li {
-    display: inline-block;
-    margin-right: 20px;
+#menu li {
+    float: left;
 }
 
-a {
+#menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #0081ff; /* Color de los enlaces */
-    padding: 8px 12px;
-    border: 1px solid #2c3e50;
-    border-radius: 5px;
-    background-color: #ecf0f1; /* Color de fondo de los enlaces */
-    transition: background-color 0.3s;
 }
 
-a:hover {
-    background-color: #bdc3c7;
+#menu a:hover {
+    background-color: #555;
+}
+
+/* Clearfix to prevent container collapse */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }

@@ -28,7 +28,14 @@
 
         <br><br>
 
+        <!-- Nuevo campo para el nombre del artista -->
+        <label for="nombreArtista">Nombre del Artista:</label>
+        <input type="text" id="nombreArtista" name="nombreArtista" required>
+
+        <br><br>
+
         <input type="submit" value="Crear Evento Musical">
+
     </form>
 
     <br>
